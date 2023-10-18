@@ -1,0 +1,32 @@
+
+::selection{
+    background-color: rgb(77, 251, 77);
+}
+a:hover{
+    color: rgb(43, 226, 195);
+    font-size: 1.1em;
+}
+a:active{
+    color: rgb(48, 188, 48);
+    font-size: 1.2em;
+}
+@font-face {
+    font-family: bobs ;
+    src: url(font/GochiHand-Regular.ttf);
+}
+body{
+    font-family: bobs;
+}
+h4{
+    margin-left: 50px ;
+}
+#cornflake{
+    float: right;
+}
+a{
+    text-decoration: none;
+}
+#form{
+    background-color: lightgray;
+    border-radius: 7px;
+}
